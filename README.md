@@ -59,3 +59,24 @@ Download these two chrome extensions:
 
 - [Redux devtools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 - [React devtools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+
+
+# D3Visualization advance by myzero1
+···
+Docker 安装Neo4j
+    docker pull neo4j
+    docker run -it -d -p 7474:7474 -p 7687:7687 neo4j:latest
+    http://localhost:7474
+
+
+https://github.com/phdd/neo4j-browser 使用
+    docker run --name neo4j-editor -d -p 8080:80 phdd/neo4j-browser
+
+    数据库连接
+        host bolt://192.168.135.135:7687
+        u: neo4j
+        p: neo4j
+
+https://github.com/myzero1/neo4j-browser 使用
+    在feature/d3-visualization上进行修改
+···
